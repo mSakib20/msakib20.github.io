@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
+  --bs-primary-rgb: 88, 129, 130;
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7819,7 +7819,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(to top, rgb(0,0,0,0.2) 1%,#1a2e47);
 }
 
 .bg-secondary {
@@ -11483,7 +11483,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background: linear-gradient(to top, rgb(0,0,0,0.5) 1%,#588182);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
