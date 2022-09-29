@@ -7819,7 +7819,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to top, rgb(0,0,0,0.2) 1%,#1a2e47);
+  background: linear-gradient(to bottom, rgb(0,0,0,0) 1%,#1a2e47);
 }
 
 .bg-secondary {
@@ -11483,7 +11483,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background: linear-gradient(to top, rgb(0,0,0,0.5) 1%,#588182);
+  background: linear-gradient(to bottom, rgb(0,0,0,0.5) 1%,#588182);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
